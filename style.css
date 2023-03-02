@@ -1,0 +1,3684 @@
+/*
+1.logo
+2.nav
+3.slider
+4.calash
+5.video
+6.podval_kalash_top
+7.podval_kalash
+8.podval_kalash_bottom
+9.footer_head
+10.footer
+11.footer_dottom
+*/
+
+body,html{
+    color: #071828;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: -0.5px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.basket_border{
+    position: fixed;
+    background: url("lerom_icons/basket.svg") center
+    no-repeat;
+    border: 0px solid #FFFFFF;
+    background-color: #004583;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    height: 87px;
+    width: 92px; 
+    top: 230px;
+    right: 0px;  
+    padding: 0px;  
+    cursor: pointer; 
+    z-index: 100;
+}
+
+
+
+.border_botton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    padding: 1.22rem;
+}
+
+.border_botton_none{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    padding: 1.7rem;
+
+}
+
+/*logo*/
+
+.logo_info{
+    height: 117px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line{
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.timetable_first_line{
+    display: flex;
+    flex-direction: row;
+}
+
+.clock{
+    background: url("lerom_icons/clock.svg") center
+    no-repeat; 
+    height: 20px;
+    width: 20px;
+    left: 124px;
+}
+
+.header_text{
+    margin-left: 0.3125rem;
+}
+
+.imetable_second_line{
+    display: flex;
+    flex-direction: row;
+}
+
+.compas{
+    background: url("lerom_icons/compas.svg") center
+    no-repeat; 
+    height: 20px;
+    width: 20px;
+    left: 124px;
+    margin-top: 0.5625rem;
+}
+
+.blue_text{
+    color:#004583;
+    text-decoration: none;
+    border-bottom: 0.7px solid #004583;
+    margin-top: 0.5625rem;
+}
+
+.logo{
+    background: url("lerom_icons/logolerom.svg") center
+    no-repeat; 
+    height: 92px;
+    width: 185px; 
+    margin-bottom: 0.3125rem;
+}
+
+.header_text_right{
+    font-size: 0.87em;
+    font-weight: 400;
+    line-height: 1.125em;
+    letter-spacing: -0.5px;
+    text-align: right;
+}
+
+.phone{
+    background: url("lerom_icons/phone.svg") center
+    no-repeat;
+    height: 10px;
+    width: 10px;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;  
+    padding-top: 0.5rem; 
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contacts_line{
+    display: flex;
+}
+
+#red{
+    color: #BB2822;
+    text-align: left;
+}
+
+#contacts{
+    margin-top: 0.75em;
+}
+
+.bottom_text_slider_botton_free{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.steps{
+    background: url("lerom_icons/steps.svg") center
+    no-repeat;
+    height: 18px;
+    width: 18px;
+    left: 278px; 
+    background-color: #FFFFFF;   
+}
+
+.Puzzle{
+    background: url("lerom_icons/Puzzle.svg") center
+    no-repeat;
+    height: 16px;
+    width: 16px;   
+    background-color: #FFFFFF;
+}
+
+/*nav*/
+
+.container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.burger{
+    display: none;
+}
+
+.navigator{
+    display: flex;
+    align-items: center;
+    margin-right: 1.5625rem;
+}
+
+.nav_red_box{
+    display: flex;
+    align-items: center;
+}
+
+.vector{
+    background: url("lerom_icons/Vector.svg") center
+    no-repeat;
+    height: 5px;
+    width: 10px;
+}
+
+.nav{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: -0.5px; 
+    text-decoration: none;  
+    color: #000000;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.nav:hover{
+    color: inherit;
+    opacity: .7;
+    transition: all 1s;
+}
+
+#nav_red{
+    margin-right: 1.4375rem;
+    color: #BB2822;
+    text-decoration: none;  
+}
+
+.border_input{
+    border: 1px solid #004583;
+    height: 35px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 47px;
+    margin-right: 0.9375rem;
+    
+}
+
+.lipa{
+    background: url("lerom_icons/lupa.svg") center
+    no-repeat;
+    height: 13px;
+    width: 13px;   
+    margin: 0.6875rem;    
+}
+
+input{
+    margin-left: 1.0625rem;
+    color: #004583;
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    border: 0px;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: -0.5px; 
+    caret-color: #004583;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+input::-webkit-input-placeholder{    
+color: #004583;
+}
+
+/*slider*/
+
+.coreSlider{
+    overflow: hidden;
+    height: 33.3333333333333333333333333333333333vw;
+}
+
+#coreSliderLine{
+    display: flex;
+    position: relative;
+    width: 600%;
+    left: -300%;
+}
+
+#sliderLine{
+    display: flex;
+    width: 50%;
+    position: relative;
+    left: 0;
+    transition: 0.15s all;
+    z-index: auto;
+
+}
+
+#sliderLineToo{
+    display: flex;
+    width: 50%;
+    position: relative;
+    left: 0;
+    transition: 0.15s all;
+    z-index: auto;
+}
+
+.slider{
+    width: 33.3333333333333333333333333333%;
+    height: 33.3333333333333333333333333333333333vw;
+    display: grid;
+    grid-template-columns: 2fr 8fr 1fr;
+    grid-template-rows: 33vw;
+    background-image: url("lerom_image/inginer_slide.png");
+    background-size: cover;
+    opacity: 1;
+}
+
+.left_slider{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 24.2vw;
+    left: 0;
+    z-index: 100;
+}
+
+#slider_botton_left{
+    background: url("lerom_icons/left_bottom.svg") center
+    no-repeat;
+    height: 20px;
+    width: 12.1px;
+    margin: 1.3125rem 2rem 0rem;
+    cursor: pointer;
+}
+
+#slider_botton_left:active{
+    transition: all .03s;
+    padding: 1.63rem;
+}
+
+.right_slider{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    top: 24.2vw;
+    right: 0;
+    z-index: 100;
+}
+
+#slider_botton_right{
+    background: url("lerom_icons/right_bottom.svg") center
+    no-repeat;
+    height: 20px;
+    width: 12.1px;
+    margin: 1.3125rem 2rem 0rem;
+    cursor: pointer;
+}
+
+#slider_botton_right:active{
+    transition: all .03s;
+    padding: 1.63rem;
+}
+
+.text_slider{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    grid-column: 2/3;
+}
+
+.top_text_slider{
+    font-size: 2.375em;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-bottom: 1.9rem;        
+}
+
+.midle_text_slider{
+    font-size: 1.125em;
+    font-weight: 700;
+    line-height: 1.4em;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+
+#midle_text_slider{
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.4em;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-top: 1.875rem;
+    margin-bottom: 2.5rem;
+}
+
+.slider_icons_text_top{
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 1.7em;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+
+.slider_icons_text_bottom{
+    font-size: 0.75em;
+    font-weight: 400;
+    line-height: 0.9em;
+    letter-spacing: -0.5px;
+    text-align: left;    
+}
+
+.bottom_text_slider{
+    display: flex;
+    flex-direction: row;
+}
+
+.slider_icons_text{
+    margin-left: 0.5625rem;
+    margin-right: 2.25rem;
+}
+
+#kvadrat_text::after{
+    content: "м2";
+    font-size: 0.75em;
+    font-weight: 600;
+    line-height: 1.2em;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-left: 0.3125rem;
+}
+
+#peopl_text::after{
+    content: "чел";
+    font-size: 0.75em;
+    font-weight: 600;
+    line-height: 1.2em;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-left: 0.3125rem;
+}
+
+.bottom_text_slider_mobil{
+    display: flex;
+    flex-direction: row;
+}
+
+.kvadrat{
+    background: url("lerom_icons/kvadrat.svg") center
+    no-repeat;
+    height: 18px;
+    width: 18px;
+    left: 278px; 
+    background-color: #FFFFFF;   
+}
+
+.peopl{
+    background: url("lerom_icons/peopl.svg") center
+    no-repeat;
+    height: 16px;
+    width: 16px;   
+    background-color: #FFFFFF;
+}
+
+.star{
+    background: url("lerom_icons/star.svg") center
+    no-repeat;
+    height: 19px;
+    width: 20px;  
+    background-color: #FFFFFF;
+}
+
+.slider_icons_text{
+    margin-left: 0.5625rem;
+    margin-right: 2.25rem;
+}
+
+.slider_free{
+    display: grid;
+    width: 33.33333333333333333333333333333333333333%;
+    grid-template-columns: 2fr 8fr 1fr;
+    grid-template-rows: 33vw;
+    background-image: url("lerom_image/slider_free.png");
+    background-size: cover;
+    opacity: 1;
+}
+
+.slider_melisa{
+    display: grid;
+    width: 33.3333333333333333333333333333333333333333333333333%;
+    grid-template-columns: 2fr 8fr 1fr;
+    grid-template-rows: 33vw;
+    background-image: url("lerom_image/slider_melissa.png");
+    background-size: cover;    
+    opacity: 1;
+}
+
+.slider_melisa_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    grid-column: 2/3;
+}
+
+.vert_line{
+    font-weight: 50;
+    font-size: 0.67em;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.top_text_slider{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 2.375em;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -0.0313rem;
+    margin-bottom: 0.4375rem;
+}
+
+.midle_text_slider_free{
+    color: white;
+    font-size: 1.125em;
+    font-weight: 500;
+    line-height: 2.1875rem;
+    letter-spacing: 1rem;
+    margin-bottom: 0.4375rem;
+}
+
+.slider_color_nav_container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider_color_nav{
+    display: flex;
+}
+
+.slider_color_nav_item{
+    display: flex;
+    align-items: center;
+    margin-right: 1.6875rem;
+    margin-top: 0.75rem;
+}
+
+.slider_melisa_button{
+    border: 0.25rem solid white;
+    padding: 0.75rem;
+    border-radius: 100px;
+}
+
+.slider_color_nav_text{
+    letter-spacing: -0.0313rem;
+    margin-left: 0.375rem;
+}
+
+.moldau{
+    margin-right: 0.25rem;
+}
+
+.slider_melisa_bottom{
+    font-size: 1.3125em;
+    font-weight: 500;
+    line-height: 1.6875rem;
+    letter-spacing: -0.0313rem;
+    padding: 1rem 1.5rem; 
+    color: white;
+    border: 2px solid white;   
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    margin-top: 1.875rem;
+    width: max-content;
+}
+
+.yasen{
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url("lerom_icons/yasen_wood.svg") center
+    no-repeat
+}
+
+.grikori{
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url("lerom_icons/grikori_wood.svg") center
+    no-repeat
+}
+
+.akacia{
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url("lerom_icons/akacia_wood.svg") center
+    no-repeat
+}
+
+.asahi{
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url("lerom_icons/asahi_wood.svg") center
+    no-repeat
+}
+
+/*calash*/
+
+.calash{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 22vw 22vw;
+}
+
+.calash_photo{
+    background-color: black;
+}
+
+.calash_text{
+    background-color: white;
+}
+
+.calash_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calash_text_top{
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.9em;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-left: 1.875rem;
+    margin-bottom: 0.4375rem;
+    margin-top: 0;
+}
+
+.calash_text_midle{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: -0.5px;
+    text-align: left;  
+    margin-left: 1.875rem;      
+}
+
+.calash_text_midle_blue{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: -0.5px;
+    text-align: left; 
+    color: #004583;
+    margin-top: 1.125rem;
+    margin-bottom: 1.125rem;
+    margin-left: 1.875rem;
+}
+
+.left_calash{
+    border-color: #004583;
+    margin: 1.4375rem 0 0 1.875rem;
+    background: url("lerom_icons/calash_left.svg") center
+    no-repeat;
+    height: 16px;
+    width: 16px;
+}
+
+.right_calash{
+    border-color: #004583;
+    margin-left: 1.875rem;
+    margin-top: 1.4375rem;
+    background: url("lerom_icons/calash_right.svg") center
+    no-repeat; 
+    height: 16px;
+    width: 16px;  
+}
+
+#gostinaya{
+    background-image: url("lerom_image/gostinnaya.png");
+    background-size: cover;
+}
+
+#spalni{
+    background-image: url("lerom_image/spalni.png");
+    background-size: cover;
+}
+
+#detskie{
+    background-image: url("lerom_image/detskie.png");
+    background-size: cover;
+}
+
+#prihogie{
+    background-image: url("lerom_image/prihogie.png");
+    background-size: cover;
+}
+
+.calash_midle{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-template-rows: 22vw;
+}
+
+.calash_midle_photo{
+    background-image: url("lerom_image/krovati.png");
+    background-size: cover;
+}
+
+/*video*/
+
+.video{
+    background-image: url("lerom_image/video.png");
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 32vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.video_botton{
+    background: url("lerom_icons/paus.svg") center
+    no-repeat; 
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    padding: 3rem;
+    margin: 3.875rem 0rem 6.7rem 0rem;
+    cursor: pointer;
+}
+
+.video_text{
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.9em;
+    letter-spacing: -0.5px;
+    text-align: center;          
+}
+
+.video_text_border{
+    font-size: 0.87em;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: -0.5px;
+    text-align: center;  
+    border: 1px solid #FFFFFF;  
+    padding: 0.8rem 2.7rem 0.8rem 2.7rem;
+    border-radius: 100px;
+    cursor: pointer;
+}
+ 
+/*podval_kalash_top*/
+
+.podval_kalash_top{
+    display: flex;
+    flex-direction: row;
+    height: 92px;
+}
+
+.podval_kalash_top_insaid{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125em;
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: -0.5px;
+    text-align: left;        
+}
+
+/*podval_kalash*/
+
+.podval_kalash{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4.8vw 15.5vw 15.5vw;
+}
+
+.one_podval_grid{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    margin: auto;
+}
+
+.two_podval_grid{
+    grid-row: 1/2;
+    grid-column: 3/5;
+    margin: auto; 
+}
+
+.super_marcket{
+    background-image: url("lerom_image/super_marcket.png");
+    background-size: cover;
+}
+
+.karina_kamelia{
+    background-image: url("lerom_image/karina_kamelia.png");
+    background-size: cover;
+
+}
+
+.spalnya_small{
+    background-image: url("lerom_image/spalnya_small.png");
+    background-size: cover;
+}
+
+.gostinnaya_small{
+    background-image: url("lerom_image/gostinnaya_small.png");
+    background-size: cover;
+}
+
+.podval_kalash_text_window{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.podval_kalash_title{
+    font-size: 1.125em;
+    font-weight: 700;
+    line-height: 1.4em;
+    letter-spacing: -0.5px;
+    text-align: left; 
+    margin: 1.0625rem 0 0.4375rem 1.875rem;       
+}
+
+.podval_kalash_text_bottom{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: -0.5px;
+    text-align: left;  
+    margin: 0 0 0 1.875rem;     
+}
+
+.podval_vector {
+    margin: 0 0 1.3125rem 1.875rem;
+}
+
+.left_podval_kalash_red{
+    background: url("lerom_icons/vector_left_red.svg") center
+    no-repeat;
+    border-color: #BB2822;
+    height: 16px;
+    width: 16px;
+    margin: 0 0 1.3125rem 1.875rem;
+}
+
+.right_podval_kalash_red{
+    background: url("lerom_icons/vector_right_red.svg") center
+    no-repeat;
+    border-color: #BB2822;
+    height: 16px;
+    width: 16px;
+    margin: 0 0 1.3125rem 1.875rem;
+}
+
+#red_calash::before{
+    content: "Бесплатная";
+    color: #BB2822;
+}
+
+/*podval_kalash_bottom*/
+
+.podval_kalash_bottom{
+    display: flex;
+    flex-direction: row;
+    height: 5vw;
+}
+
+.bottom_botton_calash_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bottom_botton_calash_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.podval_kalash_bottom_insaid{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.podval_kalash_bottom_text{
+    font-size: 1.125em;
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: -0.5px;
+    text-align: left;     
+}
+
+#blue_calash{
+    color: #004583;
+}
+
+.bottom_vector{
+    background: url("lerom_icons/down_vector.svg") center
+    no-repeat;
+    margin-left: 0.5625rem;
+    margin-left: 0.5625rem;
+    height: 13px;
+    width: 13px; 
+}
+
+.bottom_vector_dlue{
+    background: url("lerom_icons/down_vector_blue.svg") center
+    no-repeat;
+    margin-left: 0.5625rem;
+    height: 13px;
+    width: 13px;  
+}
+
+/*footer_head*/
+
+.footer_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 151px;
+    border-top: 1px solid #E7E6E6;
+}
+
+.futer_head_left{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: -0.5px;
+    text-align: left;    
+    color: #a5a4a4; 
+    padding-left: 1.56rem;   
+}
+
+.futer_head_center{
+    background: url("lerom_icons/logo_footer.svg") center
+    no-repeat;
+    height: 86px;
+    width: 173px;  
+} 
+
+.futer_head_right{
+    background: url("lerom_icons/esv_digitel.svg") center
+    no-repeat;
+    height: 28px;
+    width: 168px;   
+    margin-left: 160px; 
+    padding-right: 1.4rem;   
+}
+
+.futer_head_right::after{
+    content: "Сайт разработан  -";
+    color: #a5a4a4;
+    position: relative;
+    right: 130px;
+}
+
+.Ellipse{
+    background: url("lerom_icons/Ellipse.svg") center
+    no-repeat;
+    height: 19px;
+    width: 19px;    
+    position: absolute;
+    right: 90px;
+    margin-bottom: 0.25rem;
+}
+
+/*footer*/
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 191px;
+    margin-left: 1.5625rem;
+    margin-left: 1.4375rem;
+    border-bottom: 1px solid #E7E6E6;
+}
+
+#blue_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer_inside_titel{
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 2.1875em;
+    letter-spacing: -0.5px;
+    text-align: left;   
+}
+
+.footer_inside_text{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-bottom: 0.625rem;
+    color: #656D75;
+}
+
+.footer_inside_blue{
+    display: flex;
+    justify-content: center;
+    color: #004583;
+    border-bottom: 1px solid #E7E6E6;
+    width: 200px;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 2.1875em;
+    letter-spacing: -0.5px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.footer_inside_blue_nonebot{
+    display: flex;
+    justify-content: center;
+    color: #004583;
+    width: 200px;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 2.1875em;
+    letter-spacing: -0.5px;
+    padding-top: 0.75rem;
+}
+
+.footer_icons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.footer_icons_inside_left{
+    background: url("lerom_icons/footer_left.svg") center
+    no-repeat;
+    height: 31px;
+    width: 88px;   
+}
+
+.footer_icons_inside_right{
+    background: url("lerom_icons/footer_right.svg") center
+    no-repeat;
+    height: 31px;
+    width: 88px;   
+    margin-left: 1.875rem;
+    margin-right: 1.4375rem;
+}
+
+/*footer_dottom*/
+
+.footer_dottom{
+    height: 64px;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: -0.5px; 
+    color: #a5a4a4; 
+    display: flex;
+    align-items: center;
+    padding-left: 1.9rem;
+}
+
+
+@media(max-width: 510px) {
+
+    body,html{
+        font-size: 17px;
+    }
+
+    .modil_none{
+        display: none;
+    }
+    
+    .border_botton{
+        padding: 0.1875rem;;
+    }
+
+    /*header*/
+
+    .logo_info{
+        height: max-content;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .imetable_second_line{
+        height: max-content;
+        display: flex;
+        align-items: center;
+    }
+
+    .compas{
+        background: url("lerom_icons/compas_mobil.svg") center
+        no-repeat;
+        margin-top: 0rem;
+        height: 12px;
+        width: 12px;  
+        margin-left: 0.625rem;           
+    }
+   
+    .blue_text{
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 1rem;
+        letter-spacing: -0.5px;
+        margin-top: 0rem;           
+    }
+
+    .logo{
+        background: url("lerom_icons/logo_mobil.svg") center
+        no-repeat;
+        height: 46px;
+        width: 93px;
+        margin: 0.375rem 0 0.625rem 0;
+    }
+
+    .navigator{
+        font-weight: 700;
+        line-height: 1.25em;
+        letter-spacing: -0.5px;
+        text-align: left; 
+        height: 6.4vw;   
+        width: 50%;    
+        background-color: #BB2822; 
+        margin: 0;
+        padding: 0.9225rem 0 0.9225rem 0;
+    }
+
+    .nav_red_box{
+        display: flex;
+        justify-content: space-between;
+        width: 50vw;
+        align-items: center;
+    }
+
+    #nav_red{
+        color: #FFFFFF;
+        font-size: 1em;
+        margin: 0 0 0 0.625rem;
+    }
+
+    .vector{
+        background: url("lerom_icons/vector_mobile.svg") center
+        no-repeat;
+        margin-right: 0.8125rem;
+    }
+
+    .border_input{
+        height: 6.4vw;
+        width: 50%;
+        background-color: #004583;
+        border-radius: 0px;
+        margin: 0;
+        border: 0px;
+        padding: 0.9375rem 0 0.9375rem 0;
+    }
+
+    input{
+        font-size: 0.75em;
+        font-weight: 400;
+        line-height: 0.9375em;
+        letter-spacing: -0.5px;
+        background-color: #004583;
+        color: #FFFFFF;
+        caret-color: #FFFFFF;
+        margin: 0 0 0 0.6875rem;
+        padding: 0;
+    }
+
+    input::-webkit-input-placeholder{    
+        color: #FFFFFF;
+    }
+
+    .burger{
+        width: 10vw;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 0.625rem;
+        margin-left: 0.625rem;
+    }
+
+    .burger_line{
+        border-bottom: 5px solid#004583;
+        width: 10vw;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+    }
+
+    .burger_line_center{
+        margin-top: 0.3125rem;
+        margin-bottom: 0.3125rem;
+    }
+
+    /*slider*/
+
+    .coreSlider{
+        height: 103vw; 
+    }
+
+    .slider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(lerom_image/inginer_slide.png);
+        background-size: cover;
+        height: 103vw;
+    }
+   
+    .text_slider{
+        width: max-content;
+    }
+
+    .top_text_slider{
+        font-size: 1.05em;
+        font-weight: 700;
+        line-height: 1.3625em;
+        letter-spacing: -0.5px;
+        margin: 2.1375rem 0 0.875rem 0;
+    }
+
+    .midle_text_slider{
+        font-size: 0.75em;
+        font-weight: 700;
+        line-height: 0.9375em;
+        letter-spacing: -0.5px;       
+        margin: 0 0 1.25rem 0;
+    }
+
+    #midle_text_slider{
+        font-size: 0.75em;
+        font-weight: 700;
+        line-height: 0.9375em;
+        letter-spacing: -0.5px;  
+        margin: 0 0 1.425rem 0;
+    }
+    
+    .border_botton_none{
+        padding: 0.9375rem;
+    }
+
+    .bottom_text_slider_botton{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .star_container{
+        margin-bottom: 2.1875rem;
+    }
+
+    .bottom_text_slider_mobil{
+        margin-bottom: 0.455rem;
+    }
+
+    .kvadrat{
+        background: url("lerom_icons/kvadrat_mobil.svg") center
+        no-repeat;
+        background-color: #FFFFFF;
+    }
+
+    .peopl{
+        background: url("lerom_icons/people_modile.svg") center
+        no-repeat;
+        background-color: #FFFFFF;
+    }
+
+    .star{
+        background: url("lerom_icons/star_mobil.svg") center
+        no-repeat;
+        background-color: #FFFFFF;
+    }
+
+    .slider_icons_text_top{
+        font-size: 0.625em;
+        font-weight: 600;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;
+    }
+
+    .slider_icons_text_bottom{
+        font-size: 0.5375em;
+        font-weight: 400;
+        letter-spacing: -0.5px;       
+    }
+    
+    .bottom_text_slider{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bottom_text_slider_mobil{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*calash*/
+
+    .calash{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 49vw 49vw 49vw 49vw;
+        }
+
+    .spalni{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    .one_grid{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .detskie{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .two_grid{
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    .calash_text_top{
+        font-size: 0.9375em;
+        font-weight: 700;
+        line-height: 1.1875em;
+        letter-spacing: -0.5px;    
+        margin: 0 0 0 0.5625rem; 
+    }
+
+    .calash_text_midle{
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;      
+        margin: 4px 0 0 0.5625rem;
+    }
+
+    .calash_text_midle_blue{
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;        
+        margin: 0.5625rem 0 0.5625rem 0.5625rem;
+    }
+
+    .left_calash{
+        background: url("lerom_icons/mobil_calash_left.svg") center
+        no-repeat;
+        margin: 0 0 0 0.625rem;
+    }
+
+    .right_calash{
+        background: url("lerom_icons/mobil_calash_right.svg") center
+        no-repeat; 
+        margin: 0 0 0 0.625rem;
+    }
+
+    .calash_midle{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 44vw;
+    }
+
+    /*video*/
+
+    .video{
+        height: 100vw;  
+    }
+
+    .video_text{
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 1.9375em;
+        letter-spacing: -0.5px;        
+    }
+
+    .video_botton{
+        margin: 0.8125rem 0 1.4375rem 0;
+    }
+
+    .video_text_border{
+        font-size: 0.875em;
+        font-weight: 600;
+        line-height: 1.125em;
+        letter-spacing: -0.5px;               
+    }
+
+    /*podval*/ 
+
+    .podval_kalash{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 18vw 49vw 49vw 18vw 49vw 49vw;
+    }
+    
+    .one_podval_grid{
+        grid-row: 1/2;
+        grid-column: 1/3;
+        margin: auto;
+    }
+    
+    .two_podval_grid{
+        grid-row: 4/5;
+        grid-column: 1/3; 
+        margin: auto;
+    }
+
+    .three_podval_grid{
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    .four_podval_grid{
+        grid-row: 5/6;
+        grid-column: 2/3;
+    }
+
+    .five_podval_grid{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .six_podval_grid{
+        grid-row: 3/4;
+        grid-column: 2/3;    
+    }
+
+    .podval_kalash_text_window{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .right_position{
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .podval_kalash_text{
+        margin: 0;
+    }
+
+    .podval_kalash_title{
+        font-size: 0.9375em;
+        font-weight: 700;
+        line-height: 1.1875em;
+        letter-spacing: -0.5px;  
+        margin: 0.625rem 1.125rem 0.5rem 0.5625rem;        
+    }
+
+    #red_calash{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .podval_kalash_text_bottom{
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;
+        margin: 0 1.125rem 0 0.5625rem;
+    }
+
+    .left_podval_kalash_red{
+        background: url("lerom_icons/mobil_red_vector_left.svg") center
+        no-repeat; 
+        margin: 0 0.5625rem 0.6875rem 0.5625rem;
+    }
+
+    .right_podval_kalash_red{
+        background: url("lerom_icons/mobil_red_vector_right.svg") center
+        no-repeat;
+        margin: 0 1.125rem 0.6875rem 0.5625rem;
+    }
+
+    .podval_vector{
+        margin: 0 0.5625rem 0.6875rem 0.5625rem;
+    }
+
+    .podval_kalash_bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: fit-content;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .podval_kalash_top_inside{
+        font-size: 1.125em;
+        font-weight: 500;
+        line-height: 1.4375em;
+        letter-spacing: -0.5px;              
+    }
+
+    .podval_kalash_bottom_text{
+        font-size: 1.125em;
+        font-weight: 500;
+        line-height: 1.4375em;
+        letter-spacing: -0.5px;  
+        margin-top: 0.7188rem;
+        margin-bottom: 0.7188rem;    
+    }
+
+    .footer_head{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .futer_head_left{
+        font-size: 0.875em;
+        font-weight: 400;
+        line-height: 1.125em;
+        letter-spacing: -0.5px;      
+        padding: 0;    
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 35vw 35vw 44vw;
+        margin: 0;
+    }
+
+    .footer_inside{
+        margin-left: 0.9375rem;
+        margin-top: 0.625rem;
+    }
+
+    .footer_inside_titel{
+        font-size: 0.8125em;
+        font-weight: 700;
+        line-height: 1.75em;
+        letter-spacing: -0.5px;
+    }
+
+    .footer_inside_text{
+        font-size: 0.8125em;
+        font-weight: 400;
+        line-height: 1.75em;
+        letter-spacing: -0.5px;
+        margin: 0;             
+    }
+
+    .footer_inside_blue{
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 2.1875em;
+        letter-spacing: -0.5px;
+        border-bottom: 1px solid #E7E6E6;  
+        padding-bottom: 0.5625rem;
+        padding-top: 0.1875rem;         
+    }
+
+    .footer_inside_blue_nonebot{
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 2.1875em;
+        letter-spacing: -0.5px;    
+        padding-bottom: 0.3125rem; 
+        padding-top: 0.3125rem;         
+    }
+
+    .one_footer_grid{
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+
+    .two_footer_grid{
+        grid-row: 3/4;
+        grid-column: 1/3;
+        justify-self: center;
+    }
+
+    .footer_dottom{
+        padding: 0;
+        text-align: center;
+        border-top: 1px solid #EFEFEF;
+        border-bottom: 1px solid #EFEFEF;
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;       
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 510px) {
+    body,html{
+        font-size: 26px;
+    }
+
+    .modil_none{
+        display: none;
+    }
+    
+    .border_botton{
+        padding: 0.1875rem;;
+    }
+
+    /*header*/
+
+    .logo_info{
+        height: max-content;
+        display: flex;
+        justify-content: space-between;
+        height: 13vh;
+    }
+
+    .imetable_second_line{
+        height: max-content;
+        display: flex;
+        align-items: center;
+    }
+
+    .compas{
+        background: url("lerom_icons/compas_mobil.svg") center
+        no-repeat;
+        margin-top: 0rem;
+        height: 12px;
+        width: 12px;  
+        margin-left: 0.625rem;           
+    }
+   
+    .blue_text{
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 1rem;
+        letter-spacing: -0.5px;
+        margin-top: 0rem;           
+    }
+
+    .logo{
+        background: url("lerom_icons/logo_mobil.svg") center
+        no-repeat;
+        height: 46px;
+        width: 93px;
+        margin: 0.375rem 0 0.625rem 0;
+    }
+
+    .navigator{
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        line-height: 1.25em;
+        letter-spacing: -0.5px;
+        text-align: left; 
+        height: 9.4vw;   
+        width: 50%;    
+        background-color: #BB2822; 
+        margin: 0;
+        /* padding: 0.9225rem 0 0.9225rem 0; */
+    }
+
+    .nav_red_box{
+        display: flex;
+        justify-content: space-between;
+        width: 50vw;
+        align-items: center;
+    }
+
+    #nav_red{
+        color: #FFFFFF;
+        font-size: 1em;
+        margin: 0 0 0 0.625rem;
+    }
+
+    .vector{
+        background: url("lerom_icons/vector_mobile.svg") center
+        no-repeat;
+        margin-right: 0.8125rem;
+    }
+
+    .border_input{
+        height: 9.4vw;
+        width: 50%;
+        background-color: #004583;
+        border-radius: 0px;
+        margin: 0;
+        border: 0px;
+        /* padding: 0.9375rem 0 0.9375rem 0; */
+    }
+
+    input{
+        font-size: 0.75em;
+        font-weight: 400;
+        line-height: 0.9375em;
+        letter-spacing: -0.5px;
+        background-color: #004583;
+        color: #FFFFFF;
+        caret-color: #FFFFFF;
+        margin: 0 0 0 0.6875rem;
+        padding: 0;
+        height: 25px;
+    }
+
+    input::-webkit-input-placeholder{    
+        color: #FFFFFF;
+    }
+
+    .burger{
+        width: 10vw;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 0.625rem;
+        margin-left: 0.625rem;
+    }
+
+    .burger_line{
+        border-bottom: 5px solid#004583;
+        width: 10vw;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+    }
+
+    .burger_line_center{
+        margin-top: 0.3125rem;
+        margin-bottom: 0.3125rem;
+    }
+
+    /*slider*/
+
+    .coreSlider{
+        height: 103vw;
+    }
+
+    .slider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(lerom_image/inginer_slide.png);
+        background-size: cover;
+        height: 103vw;
+    }
+   
+    .text_slider{
+        width: max-content;
+    }
+
+    .top_text_slider{
+        font-size: 1.25em;
+        font-weight: 700;
+        line-height: 1.5625em;
+        letter-spacing: -0.5px;
+        margin: 2.4375rem 0 0.875rem 0;
+    }
+
+    .midle_text_slider{
+        font-size: 0.75em;
+        font-weight: 700;
+        line-height: 0.9375em;
+        letter-spacing: -0.5px;       
+        margin: 0 0 1.25rem 0;
+    }
+
+    #midle_text_slider{
+        font-size: 0.75em;
+        font-weight: 700;
+        line-height: 0.9375em;
+        letter-spacing: -0.5px;  
+        margin: 0 0 1.625rem 0;
+    }
+    
+    .border_botton_none{
+        padding: 0.9375rem;
+    }
+
+    .bottom_text_slider_botton{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .star_container{
+        margin-bottom: 2.1875rem;
+    }
+
+    .bottom_text_slider_mobil{
+        margin-bottom: 0.875rem;
+    }
+
+    .kvadrat{
+        background: url("lerom_icons/kvadrat_mobil.svg") center
+        no-repeat;
+        background-color: #FFFFFF;
+    }
+
+    .peopl{
+        background: url("lerom_icons/people_modile.svg") center
+        no-repeat;
+        background-color: #FFFFFF;
+    }
+
+    .star{
+        background: url("lerom_icons/star_mobil.svg") center
+        no-repeat;
+        background-color: #FFFFFF;
+    }
+
+    .slider_icons_text_top{
+        font-size: 0.625em;
+        font-weight: 600;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;
+    }
+
+    .slider_icons_text_bottom{
+        font-size: 0.5375em;
+        font-weight: 400;
+        letter-spacing: -0.5px;       
+    }
+    
+    .bottom_text_slider{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bottom_text_slider_mobil{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*calash*/
+
+    .calash{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 49vw 49vw 49vw 49vw;
+        }
+
+    .spalni{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    .one_grid{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .detskie{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .two_grid{
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    .calash_text_top{
+        font-size: 0.9375em;
+        font-weight: 700;
+        line-height: 1.1875em;
+        letter-spacing: -0.5px;    
+        margin: 0 0 0 0.5625rem; 
+    }
+
+    .calash_text_midle{
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;      
+        margin: 4px 0 0 0.5625rem;
+    }
+
+    .calash_text_midle_blue{
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;        
+        margin: 0.5625rem 0 0.5625rem 0.5625rem;
+    }
+
+    .left_calash{
+        background: url("lerom_icons/mobil_calash_left.svg") center
+        no-repeat;
+        margin: 0 0 0 0.625rem;
+    }
+
+    .right_calash{
+        background: url("lerom_icons/mobil_calash_right.svg") center
+        no-repeat; 
+        margin: 0 0 0 0.625rem;
+    }
+
+    .calash_midle{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 44vw;
+    }
+
+    /*video*/
+
+    .video{
+        height: 100vw;  
+    }
+
+    .video_text{
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 1.9375em;
+        letter-spacing: -0.5px;        
+    }
+
+    .video_botton{
+        margin: 0.8125rem 0 1.4375rem 0;
+    }
+
+    .video_text_border{
+        font-size: 0.875em;
+        font-weight: 600;
+        line-height: 1.125em;
+        letter-spacing: -0.5px;               
+    }
+
+    /*podval*/ 
+
+    .podval_kalash{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 18vw 49vw 49vw 18vw 49vw 49vw;
+    }
+    
+    .one_podval_grid{
+        grid-row: 1/2;
+        grid-column: 1/3;
+        margin: auto;
+    }
+    
+    .two_podval_grid{
+        grid-row: 4/5;
+        grid-column: 1/3; 
+        margin: auto;
+    }
+
+    .three_podval_grid{
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    .four_podval_grid{
+        grid-row: 5/6;
+        grid-column: 2/3;
+    }
+
+    .five_podval_grid{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .six_podval_grid{
+        grid-row: 3/4;
+        grid-column: 2/3;    
+    }
+
+    .podval_kalash_text_window{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .right_position{
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .podval_kalash_text{
+        margin: 0;
+    }
+
+    .podval_kalash_title{
+        font-size: 0.9375em;
+        font-weight: 700;
+        line-height: 1.1875em;
+        letter-spacing: -0.5px;  
+        margin: 0.625rem 1.125rem 0.5rem 0.5625rem;        
+    }
+
+    #red_calash{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .podval_kalash_text_bottom{
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;
+        margin: 0 1.125rem 0 0.5625rem;
+    }
+
+    .left_podval_kalash_red{
+        background: url("lerom_icons/mobil_red_vector_left.svg") center
+        no-repeat; 
+        margin: 0 0.5625rem 0.6875rem 0.5625rem;
+    }
+
+    .right_podval_kalash_red{
+        background: url("lerom_icons/mobil_red_vector_right.svg") center
+        no-repeat;
+        margin: 0 1.125rem 0.6875rem 0.5625rem;
+    }
+
+    .podval_vector{
+        margin: 0 0.5625rem 0.6875rem 0.5625rem;
+    }
+
+    .podval_kalash_bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: fit-content;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .podval_kalash_top_inside{
+        font-size: 1.125em;
+        font-weight: 500;
+        line-height: 1.4375em;
+        letter-spacing: -0.5px;              
+    }
+
+    .podval_kalash_bottom_text{
+        font-size: 1.125em;
+        font-weight: 500;
+        line-height: 1.4375em;
+        letter-spacing: -0.5px;  
+        margin-top: 0.7188rem;
+        margin-bottom: 0.7188rem;    
+    }
+
+    .footer_head{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .futer_head_left{
+        font-size: 0.875em;
+        font-weight: 400;
+        line-height: 1.125em;
+        letter-spacing: -0.5px;      
+        padding: 0;    
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 35vw 35vw 44vw;
+        margin: 0;
+    }
+
+    .footer_inside{
+        margin-left: 0.9375rem;
+        margin-top: 0.625rem;
+    }
+
+    .footer_inside_titel{
+        font-size: 0.8125em;
+        font-weight: 700;
+        line-height: 1.75em;
+        letter-spacing: -0.5px;
+    }
+
+    .footer_inside_text{
+        font-size: 0.8125em;
+        font-weight: 400;
+        line-height: 1.75em;
+        letter-spacing: -0.5px;
+        margin: 0;             
+    }
+
+    .footer_inside_blue{
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 2.1875em;
+        letter-spacing: -0.5px;
+        border-bottom: 1px solid #E7E6E6;  
+        padding-bottom: 0.5625rem;
+        padding-top: 0.1875rem;         
+    }
+
+    .footer_inside_blue_nonebot{
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 2.1875em;
+        letter-spacing: -0.5px;    
+        padding-bottom: 0.3125rem; 
+        padding-top: 0.3125rem;         
+    }
+
+    .one_footer_grid{
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+
+    .two_footer_grid{
+        grid-row: 3/4;
+        grid-column: 1/3;
+        justify-self: center;
+    }
+
+    .footer_dottom{
+        padding: 0;
+        text-align: center;
+        border-top: 1px solid #EFEFEF;
+        border-bottom: 1px solid #EFEFEF;
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;       
+    }
+}
+
+@media (max-width: 983px) and (min-width: 768px){
+    body,html{
+        font-size: 32px;
+    }
+
+    .modil_none{
+        display: none;
+    }
+    
+    .border_botton{
+        padding: 0.1875rem;;
+    }
+
+    /*header*/
+
+    .logo_info{
+        height: max-content;
+        display: flex;
+        justify-content: space-between;
+        height: 13vh;
+    }
+
+    .imetable_second_line{
+        height: max-content;
+        display: flex;
+        align-items: center;
+    }
+
+    .compas{
+        background: url("lerom_icons/compas_mobil.svg") center
+        no-repeat;
+        margin-top: 0rem;
+        height: 12px;
+        width: 12px;  
+        margin-left: 0.625rem;           
+    }
+   
+    .blue_text{
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 1rem;
+        letter-spacing: -0.5px;
+        margin-top: 0rem;           
+    }
+
+    .logo{
+        background: url("lerom_icons/logo_mobil.svg") center
+        no-repeat;
+        height: 46px;
+        width: 93px;
+        margin: 0.375rem 0 0.625rem 0;
+    }
+
+    .navigator{
+        font-weight: 700;
+        line-height: 1.25em;
+        letter-spacing: -0.5px;
+        text-align: left; 
+        height: 6.1vw;   
+        width: 50%;    
+        background-color: #BB2822; 
+        margin: 0;
+        /* padding: 0.6225rem 0 0.6225rem 0; */
+    }
+
+    .nav_red_box{
+        display: flex;
+        justify-content: space-between;
+        width: 50vw;
+        align-items: center;
+    }
+
+    #nav_red{
+        color: #FFFFFF;
+        font-size: 1em;
+        margin: 0 0 0 0.625rem;
+    }
+
+    .vector{
+        background: url("lerom_icons/vector_mobile.svg") center
+        no-repeat;
+        margin-right: 0.8125rem;
+    }
+
+    .border_input{
+        height: 6vw;
+        width: 50%;
+        background-color: #004583;
+        border-radius: 0px;
+        margin: 0;
+        border: 0px;
+        /* padding: 0.6375rem 0 0.6375rem 0; */
+    }
+
+    input{
+        font-size: 0.75em;
+        font-weight: 400;
+        line-height: 0.9375em;
+        letter-spacing: -0.5px;
+        background-color: #004583;
+        color: #FFFFFF;
+        caret-color: #FFFFFF;
+        margin: 0 0 0 0.6875rem;
+        padding: 0;
+    }
+
+    input::-webkit-input-placeholder{    
+        color: #FFFFFF;
+    }
+
+    .burger{
+        width: 10vw;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 0.625rem;
+        margin-left: 0.625rem;
+    }
+
+    .burger_line{
+        border-bottom: 5px solid#004583;
+        width: 10vw;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+    }
+
+    .burger_line_center{
+        margin-top: 0.3125rem;
+        margin-bottom: 0.3125rem;
+    }
+
+    /*slider*/
+
+    .coreSlider{
+        height: 103vw;
+    }
+
+    .slider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(lerom_image/inginer_slide.png);
+        background-size: cover;
+        height: 103vw;
+    }
+   
+    .text_slider{
+        width: max-content;
+    }
+
+    .top_text_slider{
+        font-size: 1.25em;
+        font-weight: 700;
+        line-height: 1.5625em;
+        letter-spacing: -0.5px;
+        margin: 2.4375rem 0 0.875rem 0;
+    }
+
+    .midle_text_slider{
+        font-size: 0.75em;
+        font-weight: 700;
+        line-height: 0.9375em;
+        letter-spacing: -0.5px;       
+        margin: 0 0 1.25rem 0;
+    }
+
+    #midle_text_slider{
+        font-size: 0.75em;
+        font-weight: 700;
+        line-height: 0.9375em;
+        letter-spacing: -0.5px;  
+        margin: 0 0 1.625rem 0;
+    }
+    
+    .border_botton_none{
+        padding: 0.9375rem;
+    }
+
+    .bottom_text_slider_botton{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .star_container{
+        margin-bottom: 2.1875rem;
+    }
+
+    .bottom_text_slider_mobil{
+        margin-bottom: 0.875rem;
+    }
+
+    .kvadrat{
+        background: url("lerom_icons/kvadrat_mobil.svg") center
+        no-repeat;
+        background-color: #FFFFFF;
+    }
+
+    .peopl{
+        background: url("lerom_icons/people_modile.svg") center
+        no-repeat;
+        background-color: #FFFFFF;
+    }
+
+    .star{
+        background: url("lerom_icons/star_mobil.svg") center
+        no-repeat;
+        background-color: #FFFFFF;
+    }
+
+    .slider_icons_text_top{
+        font-size: 0.625em;
+        font-weight: 600;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;
+    }
+
+    .slider_icons_text_bottom{
+        font-size: 0.5375em;
+        font-weight: 400;
+        letter-spacing: -0.5px;       
+    }
+    
+    .bottom_text_slider{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bottom_text_slider_mobil{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*calash*/
+
+    .calash{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 49vw 49vw 49vw 49vw;
+        }
+
+    .spalni{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    .one_grid{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .detskie{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .two_grid{
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    .calash_text_top{
+        font-size: 0.9375em;
+        font-weight: 700;
+        line-height: 1.1875em;
+        letter-spacing: -0.5px;    
+        margin: 0 0 0 0.5625rem; 
+    }
+
+    .calash_text_midle{
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;      
+        margin: 4px 0 0 0.5625rem;
+    }
+
+    .calash_text_midle_blue{
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;        
+        margin: 0.5625rem 0 0.5625rem 0.5625rem;
+    }
+
+    .left_calash{
+        background: url("lerom_icons/mobil_calash_left.svg") center
+        no-repeat;
+        margin: 0 0 0 0.625rem;
+    }
+
+    .right_calash{
+        background: url("lerom_icons/mobil_calash_right.svg") center
+        no-repeat; 
+        margin: 0 0 0 0.625rem;
+    }
+
+    .calash_midle{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 44vw;
+    }
+
+    /*video*/
+
+    .video{
+        height: 100vw;  
+    }
+
+    .video_text{
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 1.9375em;
+        letter-spacing: -0.5px;        
+    }
+
+    .video_botton{
+        margin: 0.8125rem 0 1.4375rem 0;
+    }
+
+    .video_text_border{
+        font-size: 0.875em;
+        font-weight: 600;
+        line-height: 1.125em;
+        letter-spacing: -0.5px;               
+    }
+
+    /*podval*/ 
+
+    .podval_kalash{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 18vw 49vw 49vw 18vw 49vw 49vw;
+    }
+    
+    .one_podval_grid{
+        grid-row: 1/2;
+        grid-column: 1/3;
+        margin: auto;
+    }
+    
+    .two_podval_grid{
+        grid-row: 4/5;
+        grid-column: 1/3; 
+        margin: auto;
+    }
+
+    .three_podval_grid{
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    .four_podval_grid{
+        grid-row: 5/6;
+        grid-column: 2/3;
+    }
+
+    .five_podval_grid{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .six_podval_grid{
+        grid-row: 3/4;
+        grid-column: 2/3;    
+    }
+
+    .podval_kalash_text_window{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .right_position{
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .podval_kalash_text{
+        margin: 0;
+    }
+
+    .podval_kalash_title{
+        font-size: 0.9375em;
+        font-weight: 700;
+        line-height: 1.1875em;
+        letter-spacing: -0.5px;  
+        margin: 0.625rem 1.125rem 0.5rem 0.5625rem;        
+    }
+
+    #red_calash{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .podval_kalash_text_bottom{
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;
+        margin: 0 1.125rem 0 0.5625rem;
+    }
+
+    .left_podval_kalash_red{
+        background: url("lerom_icons/mobil_red_vector_left.svg") center
+        no-repeat; 
+        margin: 0 0.5625rem 0.6875rem 0.5625rem;
+    }
+
+    .right_podval_kalash_red{
+        background: url("lerom_icons/mobil_red_vector_right.svg") center
+        no-repeat;
+        margin: 0 1.125rem 0.6875rem 0.5625rem;
+    }
+
+    .podval_vector{
+        margin: 0 0.5625rem 0.6875rem 0.5625rem;
+    }
+
+    .podval_kalash_bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: fit-content;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .podval_kalash_top_inside{
+        font-size: 1.125em;
+        font-weight: 500;
+        line-height: 1.4375em;
+        letter-spacing: -0.5px;              
+    }
+
+    .podval_kalash_bottom_text{
+        font-size: 1.125em;
+        font-weight: 500;
+        line-height: 1.4375em;
+        letter-spacing: -0.5px;  
+        margin-top: 0.7188rem;
+        margin-bottom: 0.7188rem;    
+    }
+
+    .footer_head{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .futer_head_left{
+        font-size: 0.875em;
+        font-weight: 400;
+        line-height: 1.125em;
+        letter-spacing: -0.5px;      
+        padding: 0;    
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 35vw 35vw 44vw;
+        margin: 0;
+    }
+
+    .footer_inside{
+        margin-left: 0.9375rem;
+        margin-top: 0.625rem;
+    }
+
+    .footer_inside_titel{
+        font-size: 0.8125em;
+        font-weight: 700;
+        line-height: 1.75em;
+        letter-spacing: -0.5px;
+    }
+
+    .footer_inside_text{
+        font-size: 0.8125em;
+        font-weight: 400;
+        line-height: 1.75em;
+        letter-spacing: -0.5px;
+        margin: 0;             
+    }
+
+    .footer_inside_blue{
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 2.1875em;
+        letter-spacing: -0.5px;
+        border-bottom: 1px solid #E7E6E6;  
+        padding-bottom: 0.5625rem;
+        padding-top: 0.1875rem;         
+    }
+
+    .footer_inside_blue_nonebot{
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 2.1875em;
+        letter-spacing: -0.5px;    
+        padding-bottom: 0.3125rem; 
+        padding-top: 0.3125rem;         
+    }
+
+    .one_footer_grid{
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+
+    .two_footer_grid{
+        grid-row: 3/4;
+        grid-column: 1/3;
+        justify-self: center;
+    }
+
+    .footer_dottom{
+        padding: 0;
+        text-align: center;
+        border-top: 1px solid #EFEFEF;
+        border-bottom: 1px solid #EFEFEF;
+        font-size: 0.625em;
+        font-weight: 400;
+        line-height: 0.8125em;
+        letter-spacing: -0.5px;       
+    }
+}
+
+@media (max-width: 1260px) and (min-width:983px){
+    body,html{
+        color: #071828;
+        font-family: 'Inter', sans-serif;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.25em;
+        letter-spacing: -0.5px;
+        margin: 0px;
+        
+    }
+    
+    .basket_border{
+        position: fixed;
+        background: url("lerom_icons/basket.svg") center
+        no-repeat;
+        border: 0px solid #FFFFFF;
+        background-color: #004583;
+        border-bottom-left-radius: 100px;
+        border-top-left-radius: 100px;
+        height: 87px;
+        width: 92px; 
+        top: 230px;
+        right: 0px;  
+        padding: 0px;  
+        cursor: pointer; 
+        z-index: 100;
+    }
+    
+    
+    
+    .border_botton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #FFFFFF;
+        border-radius: 100px;
+        padding: 1.22rem;
+    }
+    
+    .border_botton_none{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #FFFFFF;
+        border-radius: 100px;
+        padding: 1.7rem;
+    }
+    
+    /*logo*/
+    
+    .logo_info{
+        height: 117px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .line{
+        border-bottom: 1px solid #EFEFEF;
+    }
+    
+    .timetable_first_line{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .clock{
+        background: url("lerom_icons/clock.svg") center
+        no-repeat; 
+        height: 20px;
+        width: 20px;
+        left: 124px;
+    }
+    
+    .header_text{
+        margin-left: 0.3125rem;
+    }
+    
+    .imetable_second_line{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .compas{
+        background: url("lerom_icons/compas.svg") center
+        no-repeat; 
+        height: 20px;
+        width: 20px;
+        left: 124px;
+        margin-top: 0.5625rem;
+    }
+    
+    .blue_text{
+        color:#004583;
+        text-decoration: none;
+        border-bottom: 0.7px solid #004583;
+        margin-top: 0.5625rem;
+    }
+    
+    .logo{
+        background: url("lerom_icons/logolerom.svg") center
+        no-repeat; 
+        height: 92px;
+        width: 185px; 
+        margin-bottom: 0.3125rem;
+    }
+    
+    .header_text_right{
+        font-size: 0.87em;
+        font-weight: 400;
+        line-height: 1.125em;
+        letter-spacing: -0.5px;
+        text-align: right;
+    }
+    
+    .phone{
+        background: url("lerom_icons/phone.svg") center
+        no-repeat;
+        height: 10px;
+        width: 10px;
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;  
+        padding-top: 0.5rem; 
+    }
+    
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .contacts_line{
+        display: flex;
+    }
+    
+    #red{
+        color: #BB2822;
+        text-align: left;
+    }
+    
+    #contacts{
+        margin-top: 0.75em;
+    }
+    
+    /*nav*/
+    
+    .container{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .burger{
+        display: none;
+    }
+    
+    .navigator{
+        display: flex;
+        align-items: center;
+        margin-right: 1.5625rem;
+    }
+    
+    .nav_red_box{
+        display: flex;
+        align-items: center;
+    }
+    
+    .vector{
+        background: url("lerom_icons/Vector.svg") center
+        no-repeat;
+        height: 5px;
+        width: 10px;
+    }
+    
+    .nav{
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.25em;
+        letter-spacing: -0.5px; 
+        text-decoration: none;  
+        color: #000000;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    #nav_red{
+        margin-right: 1.4375rem;
+        color: #BB2822;
+        text-decoration: none;  
+    }
+    
+    .border_input{
+        border: 1px solid #004583;
+        height: 35px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 47px;
+        margin-right: 0.9375rem;
+        
+    }
+    
+    .lipa{
+        background: url("lerom_icons/lupa.svg") center
+        no-repeat;
+        height: 13px;
+        width: 13px;   
+        margin: 0.6875rem;    
+    }
+    
+    input{
+        margin-left: 1.0625rem;
+        color: #004583;
+        width: 100%;
+        height: 20px;
+        background-color: white;
+        border: 0px;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.25em;
+        letter-spacing: -0.5px; 
+        caret-color: #004583;
+    }
+    
+    input:focus-visible {
+        outline: none;
+    }
+    
+    input::-webkit-input-placeholder{    
+    color: #004583;
+    }
+    
+    /*slider*/
+    
+    .slider{
+        width: 33.3333333333333333333333333333333333%;
+        height: 33vw;
+        display: grid;
+        grid-template-columns: 2fr 8fr 1fr;
+        grid-template-rows: 33vw;
+        background-image: url("lerom_image/inginer_slide.png");
+        background-size: cover;
+    }
+    
+    .left_slider{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 26.7vw;
+        left: 0;
+    }
+    
+    #slider_botton_left{
+        background: url("lerom_icons/left_bottom.svg") center
+        no-repeat;
+        height: 20px;
+        width: 12.1px;
+        margin: 1.3125rem 2rem 0rem;
+        cursor: pointer;
+    }
+    
+    .right_slider{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        position: absolute;
+        top: 26.7vw;
+        right: 0;
+    }
+    
+    #slider_botton_right{
+        background: url("lerom_icons/right_bottom.svg") center
+        no-repeat;
+        height: 20px;
+        width: 12.1px;
+        margin: 1.3125rem 2rem 0rem;
+        cursor: pointer;
+    }
+    
+    .text_slider{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: #FFFFFF;
+        grid-column: 2/3;
+    }
+    
+    .top_text_slider{
+        font-size: 2.375em;
+        font-weight: 700;
+        line-height: 3rem;
+        letter-spacing: -0.5px;
+        text-align: left;
+        margin-bottom: 1rem;        
+    }
+    
+    .midle_text_slider{
+        font-size: 1.125em;
+        font-weight: 700;
+        line-height: 1.4em;
+        letter-spacing: -0.5px;
+        text-align: left;
+    }
+    
+    #midle_text_slider{
+        font-size: 1.125em;
+        font-weight: 400;
+        line-height: 1.4em;
+        letter-spacing: -0.5px;
+        text-align: left;
+        margin-top: 1.275rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .slider_icons_text_top{
+        font-size: 1.3em;
+        font-weight: 600;
+        line-height: 1.7em;
+        letter-spacing: -0.5px;
+        text-align: left;
+    }
+    
+    .slider_icons_text_bottom{
+        font-size: 0.75em;
+        font-weight: 400;
+        line-height: 0.9em;
+        letter-spacing: -0.5px;
+        text-align: left;    
+    }
+    
+    .bottom_text_slider{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .slider_icons_text{
+        margin-left: 0.5625rem;
+        margin-right: 2.25rem;
+    }
+    
+    #kvadrat_text::after{
+        content: "м2";
+        font-size: 0.75em;
+        font-weight: 600;
+        line-height: 1.2em;
+        letter-spacing: -0.5px;
+        text-align: left;
+        margin-left: 0.3125rem;
+    }
+    
+    #peopl_text::after{
+        content: "чел";
+        font-size: 0.75em;
+        font-weight: 600;
+        line-height: 1.2em;
+        letter-spacing: -0.5px;
+        text-align: left;
+        margin-left: 0.3125rem;
+    }
+    
+    .bottom_text_slider_mobil{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .kvadrat{
+        background: url("lerom_icons/kvadrat.svg") center
+        no-repeat;
+        height: 18px;
+        width: 18px;
+        left: 278px; 
+        background-color: #FFFFFF;   
+    }
+    
+    .peopl{
+        background: url("lerom_icons/peopl.svg") center
+        no-repeat;
+        height: 16px;
+        width: 16px;   
+        background-color: #FFFFFF;
+    }
+    
+    .star{
+        background: url("lerom_icons/star.svg") center
+        no-repeat;
+        height: 19px;
+        width: 20px;  
+        background-color: #FFFFFF;
+    }
+    
+    .slider_icons_text{
+        margin-left: 0.5625rem;
+        margin-right: 2.25rem;
+    }
+
+    .slider_melisa{
+        display: grid;
+        width: 33.3333333333333333333333333333333333333333333333%;
+        grid-template-columns: 2fr 8fr 1fr;
+        grid-template-rows: 33vw;
+        background-image: url("lerom_image/slider_melissa.png");
+        background-size: cover;    
+    }
+    
+    .slider_melisa_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        grid-column: 2/3;
+    }
+    
+    .vert_line{
+        font-weight: 50;
+        font-size: 0.67em;
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+    }
+    
+    .top_text_slider{
+        display: flex;
+        align-items: center;
+        font-size: 2.375em;
+        font-weight: 700;
+        line-height: 3rem;
+        letter-spacing: -0.0313rem;
+        margin-bottom: 0.4375rem;
+    }
+    
+    .midle_text_slider_free{
+        font-size: 1.125em;
+        font-weight: 500;
+        line-height: 2.1875rem;
+        letter-spacing: 1rem;
+        margin-bottom: 0.4375rem;
+    }
+    
+    .slider_color_nav_container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .slider_color_nav{
+        display: flex;
+    }
+    
+    .slider_color_nav_item{
+        display: flex;
+        align-items: center;
+        margin-right: 1.6875rem;
+        margin-top: 0.75rem;
+    }
+    
+    .slider_melisa_button{
+        border: 0.25rem solid white;
+        padding: 0.75rem;
+        border-radius: 100px;
+    }
+    
+    .slider_color_nav_text{
+        letter-spacing: -0.0313rem;
+        margin-left: 0.375rem;
+    }
+    
+    .moldau{
+        margin-right: 0.25rem;
+    }
+    
+    .slider_melisa_bottom{
+        font-size: 1.3125em;
+        font-weight: 500;
+        line-height: 1.6875rem;
+        letter-spacing: -0.0313rem;
+        padding: 1rem 1.5rem; 
+        color: white;
+        border: 1.5px solid white;   
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 30px;
+        margin-top: 1.875rem;
+        width: max-content;
+    }
+
+    .yasen{
+        width: 1.5rem;
+        height: 1.5rem;
+        background: url("lerom_icons/yasen_wood.svg") center
+        no-repeat
+    }
+    
+    .grikori{
+        width: 1.5rem;
+        height: 1.5rem;
+        background: url("lerom_icons/grikori_wood.svg") center
+        no-repeat
+    }
+    
+    .akacia{
+        width: 1.5rem;
+        height: 1.5rem;
+        background: url("lerom_icons/akacia_wood.svg") center
+        no-repeat
+    }
+    
+    .asahi{
+        width: 1.5rem;
+        height: 1.5rem;
+        background: url("lerom_icons/asahi_wood.svg") center
+        no-repeat
+    }
+    
+    /*calash*/
+    
+    .calash{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 22vw 22vw;
+    }
+    
+    .calash_photo{
+        background-color: black;
+    }
+    
+    .calash_text{
+        background-color: white;
+    }
+    
+    .calash_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .calash_text_top{
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 1.5em;
+        letter-spacing: -0.5px;
+        text-align: left;
+        margin-left: 1.875rem;
+        margin-bottom: 0.4375rem;
+        margin-top: 0;
+    }
+    
+    .calash_text_midle{
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.25em;
+        letter-spacing: -0.5px;
+        text-align: left;  
+        margin-left: 1.875rem;      
+    }
+    
+    .calash_text_midle_blue{
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.25em;
+        letter-spacing: -0.5px;
+        text-align: left; 
+        color: #004583;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        margin-left: 1.875rem;
+    }
+    
+    .left_calash{
+        border-color: #004583;
+        margin: 0.5rem 0 0 1.875rem;
+        background: url("lerom_icons/calash_left.svg") center
+        no-repeat;
+        height: 16px;
+        width: 16px;
+    }
+    
+    .right_calash{
+        border-color: #004583;
+        margin-left: 1.875rem;
+        margin-top: 0.5rem;
+        background: url("lerom_icons/calash_right.svg") center
+        no-repeat; 
+        height: 16px;
+        width: 16px;  
+    }
+    
+    #gostinaya{
+        background-image: url("lerom_image/gostinnaya.png");
+        background-size: cover;
+    }
+    
+    #spalni{
+        background-image: url("lerom_image/spalni.png");
+        background-size: cover;
+    }
+    
+    #detskie{
+        background-image: url("lerom_image/detskie.png");
+        background-size: cover;
+    }
+    
+    #prihogie{
+        background-image: url("lerom_image/prihogie.png");
+        background-size: cover;
+    }
+    
+    .calash_midle{
+        display: grid;
+        grid-template-columns: 5fr 3fr;
+        grid-template-rows: 22vw;
+    }
+    
+    .calash_midle_photo{
+        background-image: url("lerom_image/krovati.png");
+        background-size: cover;
+    }
+    
+    /*video*/
+    
+    .video{
+        background-image: url("lerom_image/video.png");
+        background-size: cover;
+        display: flex;
+        width: 100%;
+        height: 32vw;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #FFFFFF;
+    }
+    
+    .video_botton{
+        background: url("lerom_icons/paus.svg") center
+        no-repeat; 
+        border: 1px solid #FFFFFF;
+        border-radius: 100px;
+        background-color: #FFFFFF;
+        padding: 3rem;
+        margin: 2.875rem 0rem 3.1875rem 0rem;
+        cursor: pointer;
+    }
+    
+    .video_text{
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 1.9em;
+        letter-spacing: -0.5px;
+        text-align: center;          
+    }
+    
+    .video_text_border{
+        font-size: 0.87em;
+        font-weight: 600;
+        line-height: 1em;
+        letter-spacing: -0.5px;
+        text-align: center;  
+        border: 1px solid #FFFFFF;  
+        padding: 0.8rem 2.7rem 0.8rem 2.7rem;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+     
+    /*podval_kalash_top*/
+    
+    .podval_kalash_top{
+        display: flex;
+        flex-direction: row;
+        height: 92px;
+    }
+    
+    .podval_kalash_top_insaid{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.125em;
+        font-weight: 500;
+        line-height: 1.4em;
+        letter-spacing: -0.5px;
+        text-align: left;        
+    }
+    
+    /*podval_kalash*/
+    
+    .podval_kalash{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 4.8vw 15.5vw 15.5vw;
+    }
+    
+    .one_podval_grid{
+        grid-row: 1/2;
+        grid-column: 1/3;
+        margin: auto;
+    }
+    
+    .two_podval_grid{
+        grid-row: 1/2;
+        grid-column: 3/5; 
+        margin: auto;
+    }
+    
+    .super_marcket{
+        background-image: url("lerom_image/super_marcket.png");
+        background-size: cover;
+    }
+    
+    .karina_kamelia{
+        background-image: url("lerom_image/karina_kamelia.png");
+        background-size: cover;
+    
+    }
+    
+    .spalnya_small{
+        background-image: url("lerom_image/spalnya_small.png");
+        background-size: cover;
+    }
+    
+    .gostinnaya_small{
+        background-image: url("lerom_image/gostinnaya_small.png");
+        background-size: cover;
+    }
+    
+    .podval_kalash_text_window{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .podval_kalash_title{
+        font-size: 1.125em;
+        font-weight: 700;
+        line-height: 1.4em;
+        letter-spacing: -0.5px;
+        text-align: left; 
+        margin: 1.0625rem 0 0.4375rem 1.875rem;       
+    }
+    
+    .podval_kalash_text_bottom{
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.25em;
+        letter-spacing: -0.5px;
+        text-align: left;  
+        margin: 0 0 0 1.875rem;     
+    }
+    
+    .podval_vector {
+        margin: 0 0 1.3125rem 1.875rem;
+    }
+    
+    .left_podval_kalash_red{
+        background: url("lerom_icons/vector_left_red.svg") center
+        no-repeat;
+        border-color: #BB2822;
+        height: 16px;
+        width: 16px;
+        margin: 0 0 1.3125rem 1.875rem;
+    }
+    
+    .right_podval_kalash_red{
+        background: url("lerom_icons/vector_right_red.svg") center
+        no-repeat;
+        border-color: #BB2822;
+        height: 16px;
+        width: 16px;
+        margin: 0 0 1.3125rem 1.875rem;
+    }
+    
+    #red_calash::before{
+        content: "Бесплатная";
+        color: #BB2822;
+    }
+    
+    /*podval_kalash_bottom*/
+    
+    .podval_kalash_bottom{
+        display: flex;
+        flex-direction: row;
+        height: 5vw;
+    }
+    
+    .bottom_botton_calash_left{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .bottom_botton_calash_right{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .podval_kalash_bottom_insaid{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .podval_kalash_bottom_text{
+        font-size: 1.125em;
+        font-weight: 500;
+        line-height: 1.4em;
+        letter-spacing: -0.5px;
+        text-align: left;     
+    }
+    
+    #blue_calash{
+        color: #004583;
+    }
+    
+    .bottom_vector{
+        background: url("lerom_icons/down_vector.svg") center
+        no-repeat;
+        margin-left: 0.5625rem;
+        margin-left: 0.5625rem;
+        height: 13px;
+        width: 13px; 
+    }
+    
+    .bottom_vector_dlue{
+        background: url("lerom_icons/down_vector_blue.svg") center
+        no-repeat;
+        margin-left: 0.5625rem;
+        height: 13px;
+        width: 13px;  
+    }
+    
+    /*footer_head*/
+    
+    .footer_head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 151px;
+        border-top: 1px solid #E7E6E6;
+    }
+    
+    .futer_head_left{
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.25em;
+        letter-spacing: -0.5px;
+        text-align: left;    
+        color: #a5a4a4; 
+        padding-left: 1.56rem;   
+    }
+    
+    .futer_head_center{
+        background: url("lerom_icons/logo_footer.svg") center
+        no-repeat;
+        height: 86px;
+        width: 173px;  
+    } 
+    
+    .futer_head_right{
+        background: url("lerom_icons/esv_digitel.svg") center
+        no-repeat;
+        height: 28px;
+        width: 168px;   
+        margin-left: 160px; 
+        padding-right: 1.4rem;   
+    }
+    
+    .futer_head_right::after{
+        content: "Сайт разработан  -";
+        color: #a5a4a4;
+        position: relative;
+        right: 130px;
+    }
+    
+    .Ellipse{
+        background: url("lerom_icons/Ellipse.svg") center
+        no-repeat;
+        height: 19px;
+        width: 19px;    
+        position: absolute;
+        right: 90px;
+        margin-bottom: 0.25rem;
+    }
+    
+    /*footer*/
+    
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 191px;
+        margin-left: 1.5625rem;
+        margin-left: 1.4375rem;
+        border-bottom: 1px solid #E7E6E6;
+    }
+    
+    #blue_footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer_inside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .footer_inside_titel{
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 2.1875em;
+        letter-spacing: -0.5px;
+        text-align: left;   
+    }
+    
+    .footer_inside_text{
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.25em;
+        letter-spacing: -0.5px;
+        text-align: left;
+        margin-bottom: 0.625rem;
+        color: #656D75;
+    }
+    
+    .footer_inside_blue{
+        display: flex;
+        justify-content: center;
+        color: #004583;
+        border-bottom: 1px solid #E7E6E6;
+        width: 200px;
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 2.1875em;
+        letter-spacing: -0.5px;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+    
+    .footer_inside_blue_nonebot{
+        display: flex;
+        justify-content: center;
+        color: #004583;
+        width: 200px;
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 2.1875em;
+        letter-spacing: -0.5px;
+        padding-top: 0.75rem;
+    }
+    
+    .footer_icons{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    
+    .footer_icons_inside_left{
+        background: url("lerom_icons/footer_left.svg") center
+        no-repeat;
+        height: 31px;
+        width: 88px;   
+    }
+    
+    .footer_icons_inside_right{
+        background: url("lerom_icons/footer_right.svg") center
+        no-repeat;
+        height: 31px;
+        width: 88px;   
+        margin-left: 1.875rem;
+        margin-right: 1.4375rem;
+    }
+    
+    /*footer_dottom*/
+    
+    .footer_dottom{
+        height: 64px;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.25em;
+        letter-spacing: -0.5px; 
+        color: #a5a4a4; 
+        display: flex;
+        align-items: center;
+        padding-left: 1.9rem;
+    }    
+}
