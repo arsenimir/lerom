@@ -1825,19 +1825,19 @@ color: #004583;
     }
 
     .kvadrat{
-        background: url("lerom_icons/kvadrat_mobil.svg") center
+        background: url("lerom_icons/kvadrat.svg") center
         no-repeat;
         background-color: #FFFFFF;
     }
 
     .peopl{
-        background: url("lerom_icons/people_modile.svg") center
+        background: url("lerom_icons/peopl.svg") center
         no-repeat;
         background-color: #FFFFFF;
     }
 
     .star{
-        background: url("lerom_icons/star_mobil.svg") center
+        background: url("lerom_icons/peopl.svg") center
         no-repeat;
         background-color: #FFFFFF;
     }
@@ -2357,19 +2357,19 @@ color: #004583;
     }
 
     .kvadrat{
-        background: url("lerom_icons/kvadrat_mobil.svg") center
+        background: url("lerom_icons/kvadrat.svg") center
         no-repeat;
         background-color: #FFFFFF;
     }
 
     .peopl{
-        background: url("lerom_icons/people_modile.svg") center
+        background: url("lerom_icons/peopl.svg") center
         no-repeat;
         background-color: #FFFFFF;
     }
 
     .star{
-        background: url("lerom_icons/star_mobil.svg") center
+        background: url("lerom_icons/star.svg") center
         no-repeat;
         background-color: #FFFFFF;
     }
