@@ -1237,7 +1237,7 @@ color: #004583;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(lerom_image/inginer_slide.png);
+        background-image: url(lerom_image/inginer_slide_mobile.png);
         background-size: cover;
         height: 103vw;
     }
@@ -1636,7 +1636,7 @@ color: #004583;
     }
     
     .border_botton{
-        padding: 0.1875rem;;
+        padding: 0.6rem;;
     }
 
     /*header*/
@@ -1773,7 +1773,7 @@ color: #004583;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(lerom_image/inginer_slide.png);
+        background-image: url(lerom_image/inginer_slide_mobile.png);
         background-size: cover;
         height: 103vw;
     }
@@ -1918,13 +1918,13 @@ color: #004583;
     }
 
     .left_calash{
-        background: url("lerom_icons/mobil_calash_left.svg") center
+        background: url("lerom_icons/calash_left.svg") center
         no-repeat;
         margin: 0 0 0 0.625rem;
     }
 
     .right_calash{
-        background: url("lerom_icons/mobil_calash_right.svg") center
+        background: url("lerom_icons/calash_right.svg") center
         no-repeat; 
         margin: 0 0 0 0.625rem;
     }
@@ -2171,7 +2171,7 @@ color: #004583;
     }
     
     .border_botton{
-        padding: 0.1875rem;;
+        padding: 0.6rem;;
     }
 
     /*header*/
@@ -2305,7 +2305,7 @@ color: #004583;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(lerom_image/inginer_slide.png);
+        background-image: url(lerom_image/inginer_slide_mobile.png);
         background-size: cover;
         height: 103vw;
     }
@@ -2450,13 +2450,13 @@ color: #004583;
     }
 
     .left_calash{
-        background: url("lerom_icons/mobil_calash_left.svg") center
+        background: url("lerom_icons/calash_left.svg") center
         no-repeat;
         margin: 0 0 0 0.625rem;
     }
 
     .right_calash{
-        background: url("lerom_icons/mobil_calash_right.svg") center
+        background: url("lerom_icons/calash_right.svg") center
         no-repeat; 
         margin: 0 0 0 0.625rem;
     }
